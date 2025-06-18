@@ -208,7 +208,7 @@ function CreateTrip() {
           </section>
 
           {/* Button */}
-          <div className="w-100% flex items-center justify-center  bg-amber-500">
+          <div className="w-100% flex items-center justify-center ">
             <Button onClick={OnGenerateTrip} disable={loading} className="px-6 py-3 text-lg rounded-xl bg-indigo-600 hover:bg-indigo-700 transition text-white">
               {loading? <AiOutlineLoading3Quarters className='animate-spin'/> : null}
               Generate My Trip 🚀
